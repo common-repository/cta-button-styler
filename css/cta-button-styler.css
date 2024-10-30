@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+
+/* ----- Options / Settings Table Format ----- */
+
+table.cta-form-table {
+    max-width: 800px;
+}
+
+.cta-form-table td, .cta-form-table th,
+.cta-form-table td, .cta-form-table th {
+    display: table-cell;
+    padding: 10px;
+}
+
+.cta-form-table tr {
+    vertical-align: top;
+}
+
+.cta-form-table tr.cta-input-hdr {
+    background: #dedede;
+}
+
+
+tr.cta-hdr td {
+    line-height: 1.5em;
+    font-weight: bold;
+    text-align: left;
+}
+
+tr.cta-bod td {
+    width: 25%;
+    padding-top: 0px !important;
+}
